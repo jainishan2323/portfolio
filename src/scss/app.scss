@@ -1,0 +1,15 @@
+@import 'colors.scss';
+@import 'reset.scss';
+@import 'mixins.scss';
+@import 'typography.scss';
+
+@import 'base.scss';
+
+@import './sections/index.scss';
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: $medium-grey;
+    background-size: cover;
+    color: $text-primary;
+}

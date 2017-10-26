@@ -1,0 +1,10 @@
+.hero-section {
+    background-color: $main-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    .intro {
+        padding: 250px 0;
+    }
+}

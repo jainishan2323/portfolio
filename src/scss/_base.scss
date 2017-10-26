@@ -1,0 +1,34 @@
+.application-container {    
+    // background-image: url('../images/bg.jpg');
+}
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.center-section {
+    width: 90%;
+    margin: 550px auto
+}
+
+.text-container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.gradient-seperator-secondary-color {
+    // calc to avoid rough edge
+    background: linear-gradient(to bottom right, $secondary-color, $secondary-color calc(50% - 1px), transparent 50%, transparent);
+    display: block;
+    width: 100%;
+    height: 150px;
+    transform: translateZ(0);
+    backface-visibility: hidden
+}
+
+.gradient-seperator-primary-color {
+    background: linear-gradient(to bottom left, $light-grey, $light-grey 50%, transparent 50%, transparent);
+    display: block;
+    width: 100%;
+    height: 150px;
+}

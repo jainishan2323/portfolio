@@ -1,0 +1,30 @@
+.timeline-section {
+    background: $white;
+    padding-top: 100px;    
+    .timeline {
+        overflow: auto;
+        position: relative;
+        padding-top: 50px;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 40px;
+            bottom: 0;
+            width: 2px;
+            border: 1px solid;
+            border-top: none;
+            border-bottom: none;
+        }
+        article {
+            width: 350px;
+            text-align: left;
+            float: left;
+            clear: both;
+            padding: 40px 0;
+            &:nth-of-type(even) {
+                float: right;
+            }
+        }
+    }
+}
